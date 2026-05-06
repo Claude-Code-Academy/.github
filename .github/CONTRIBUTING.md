@@ -8,7 +8,7 @@ This organization does **not** accept external pull requests at this time. The m
 
 Open an issue using the **bug report** template:
 
-- Visit the relevant repo (e.g. `genie-aios`, `genie-skills-library`, `genie-mobile-apps`).
+- Visit the relevant repo (e.g. `genie-aios`, `genie-skills-library`, `genie-mobile-os`).
 - Click **Issues** → **New issue** → **Bug report**.
 - Fill in the form. The structured fields make triage fast.
 

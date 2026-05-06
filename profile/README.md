@@ -8,7 +8,7 @@ Tools, templates, and curated extensions for getting the most out of [Claude Cod
 - **[genie-skills-library](https://github.com/Claude-Code-Academy/genie-skills-library)** — the flat catalog of Genie skills. Installable individually via `python install.py <skill>` from inside Genie.
 - **[genie-plugin-marketplace](https://github.com/Claude-Code-Academy/genie-plugin-marketplace)** — themed skill bundles installable via Claude Code's `/plugin install` flow.
 - **[genie-curated-marketplace](https://github.com/Claude-Code-Academy/genie-curated-marketplace)** — vetted third-party Claude Code plugins, skills, and MCP servers — pinned to specific reviewed commits, with full attribution.
-- **[genie-mobile-apps](https://github.com/Claude-Code-Academy/genie-mobile-apps)** — mobile applications.
+- **[genie-mobile-os](https://github.com/Claude-Code-Academy/genie-mobile-os)** — mobile applications.
 - **[genie-whitelabel](https://github.com/Claude-Code-Academy/genie-whitelabel)** — finished personal projects published as white-label templates for members.
 
 ## How to engage
