@@ -1,0 +1,89 @@
+name: Bug report
+description: Something is broken or behaving unexpectedly in a Claude Code Academy tool.
+title: "[Bug] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. A few seconds spent on this template saves the maintainer a lot of guessing.
+
+        **Tip:** if you have Genie installed, you can file this issue from inside Claude Code by saying *"report a bug"* — the `report-issue` skill drives the intake and routes the issue to the right CCA repo automatically.
+
+  - type: input
+    id: component
+    attributes:
+      label: Component / area
+      description: |
+        Which CCA tool is the bug in? Examples: "genie-aios setup.py", "youtube-script skill", "the install flow", "mobile app <name>", "the curated marketplace install".
+      placeholder: "e.g. youtube-script skill"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: The actual broken behaviour — what you observed.
+      placeholder: "Describe what you saw, including any error messages."
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_expected
+    attributes:
+      label: What did you expect?
+      description: What you thought would happen instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Ordered, copy-pasteable. Include exact commands if relevant.
+      placeholder: |
+        1. Run `python install.py youtube-script`
+        2. ...
+        3. Observe the failure.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: |
+        Your OS, Python version, Claude Code version, and Genie commit if known.
+        Avoid pasting `.env` contents or any API keys.
+      placeholder: |
+        - OS: Windows 11 / macOS 14.2 / Ubuntu 22.04
+        - Python: 3.11.4
+        - Claude Code: <version>
+        - Genie commit: a39c0fe
+        - Skill version (if applicable): 0.0.1
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots (optional)
+      description: |
+        Paste relevant log excerpts here. Redact any tokens, credentials, or PII before posting.
+      placeholder: |
+        ```
+        Traceback (most recent call last): ...
+        ```
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: prior_search
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I've searched the existing issues on this repo and confirmed this isn't a duplicate.
+          required: true
+        - label: I've removed any secrets, tokens, or credentials from the logs/environment fields above.
+          required: true

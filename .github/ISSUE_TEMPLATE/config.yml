@@ -1,0 +1,7 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Community discussion (Discord / Skool)
+    url: https://www.skool.com/claude-code-academy
+    about: |
+      Questions, ideas, and "how do I…" — chat in the community channel first.
+      Please file issues here only for actual bugs or feature requests.

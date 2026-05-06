@@ -1,0 +1,66 @@
+name: Feature request
+description: Suggest a new capability or improvement to a Claude Code Academy tool.
+title: "[Feature] "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. The maintainer reads every feature request, but doesn't promise to build every one — please describe the underlying problem so the right solution can be considered.
+
+        **Tip:** if you have Genie installed, you can file this from inside Claude Code by saying *"request a feature"* — the `report-issue` skill will route it to the right CCA repo.
+
+  - type: input
+    id: component
+    attributes:
+      label: Component / area
+      description: |
+        Which CCA tool would the feature be added to? Examples: "genie-aios install.py", "youtube-script skill", "the curated marketplace", "mobile app <name>".
+      placeholder: "e.g. install.py"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: |
+        What's the underlying problem this feature would solve? Describe the gap or friction you're hitting **before** the solution.
+      placeholder: "Without the feature, I have to do X manually every time I do Y…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What you think the feature should do.
+      placeholder: "Add a `--verbose` flag that prints each step …"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered (optional)
+      description: Other approaches you thought about and why this one is better.
+    validations:
+      required: false
+
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who else this affects (optional)
+      description: |
+        Is this a personal preference, or do other Genie users hit the same gap?
+        Link to community discussion if there is one.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: prior_search
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I've searched the existing issues on this repo and confirmed this isn't a duplicate.
+          required: true
