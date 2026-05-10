@@ -1,6 +1,19 @@
-# Claude Code Academy
+<p align="center">
+  <a href="https://www.skool.com/claude-code-academy">
+    <img src="https://raw.githubusercontent.com/Claude-Code-Academy/genie-public-assets/main/assets/banner.png" alt="Claude Code Academy" width="100%">
+  </a>
+</p>
 
-Tools, templates, and curated extensions for getting the most out of [Claude Code](https://claude.com/claude-code) — built and maintained by Claude Code Academy.
+<p align="center">
+  <em>Tools, templates, and curated extensions for getting the most out of <a href="https://claude.com/claude-code">Claude Code</a>.</em>
+</p>
+
+<p align="center">
+  <a href="https://www.skool.com/claude-code-academy"><img src="https://img.shields.io/badge/Community-Skool-4F46E5?style=for-the-badge" alt="Skool community"></a>
+  <a href="https://docs.claude.com/en/docs/claude-code"><img src="https://img.shields.io/badge/Built%20on-Claude%20Code-D97706?style=for-the-badge" alt="Claude Code"></a>
+</p>
+
+---
 
 ## What we publish
 
