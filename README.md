@@ -8,7 +8,6 @@ This is the **org-level configuration repo** for the [Claude-Code-Academy](https
 - **`.github/PULL_REQUEST_TEMPLATE.md`** — informational body shown when anyone opens a PR against any CCA repo. Surfaces the no-PRs policy *before* the contributor invests effort.
 - **`.github/CONTRIBUTING.md`** — short contribution policy (PRs not accepted; please file an issue).
 - **`profile/README.md`** — public org profile shown at https://github.com/Claude-Code-Academy.
-- **`NEW-REPO-CHECKLIST.md`** — checklist for the maintainer to follow whenever a new repo is added to the CCA org.
 
 ## How it applies to other CCA repos
 
